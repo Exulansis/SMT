@@ -1,0 +1,20 @@
+{
+  "name": "SMT",
+  "version": "0.0.1",
+  "description": "Toy library for creating sparse merkle trees from normalized RDF datasets.",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/Exulansis/SMT",
+  "author": "Exulansis <rusu.eugeniu@gmx.de>",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./*.test.ts"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^3.0.3",
+    "ts-node": "^7.0.1"
+  }
+}
